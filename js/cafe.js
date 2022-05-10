@@ -11,7 +11,7 @@ var Cafe = {
 
   init: function(options) {
     Telegram.WebApp.ready();
-    Cafe.apiUrl = options.apiUrl;
+    Cafe.apiUrl = "https://api.telegram.org/bot1776614148:AAHQI3OSaxuhqfxoPVVtB-04zuQpheXXLwU";
     Cafe.userId = options.userId;
     Cafe.userHash = options.userHash;
     Cafe.initLotties();
