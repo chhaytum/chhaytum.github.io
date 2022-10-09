@@ -161,14 +161,14 @@
         } else {
           mainButton.setParams({
             is_visible: !!Cafe.canPay,
-            text: 'PAY ' + Cafe.formatPrice(Cafe.totalPrice),
+            text: 'បញ្ជាទិញ ' + Cafe.formatPrice(Cafe.totalPrice),
             color: '#31b545'
           }).hideProgress();
         }
       } else {
         mainButton.setParams({
           is_visible: !!Cafe.canPay,
-          text: 'VIEW ORDER',
+          text: 'ពិនិត្យទំនិញ',
           color: '#31b545'
         }).hideProgress();
       }
